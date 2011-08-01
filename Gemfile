@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+﻿source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
 
@@ -6,6 +6,7 @@ gem 'rails', '3.0.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3', '1.3.3'
+#gem 'redgreen', '~> 1.2.2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -34,4 +35,6 @@ end
 group :test do
   gem 'rspec-rails', '2.6.1'  
   gem 'webrat', '0.7.1'
+  gem 'spork', '0.9.0.rc8'
+
 end
